@@ -8,7 +8,7 @@ const dmSans = DM_Sans({
 
 export const metadata = {
   title: "Currículum",
-  description: "Currículum de Carlos García López",
+  description: "Currículum de Alberto Sánchez Plaza",
 };
 
 export default function RootLayout({ children }) {
