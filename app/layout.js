@@ -7,8 +7,12 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
-  title: "Currículum",
+  title: "Alberto Sánchez Plaza - Curriculum",
   description: "Currículum de Alberto Sánchez Plaza",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({ children }) {
