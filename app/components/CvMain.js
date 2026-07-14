@@ -6,7 +6,7 @@ export default function CvMain() {
           Perfil
         </h2>
         <p className="text-slate-700 text-[15px] print:text-[12px] leading-relaxed print:leading-tight">
-          Desarrollador Full Stack con más de 8 años de experiencia, especializado en Next.js, React y TypeScript, con experiencia adicional en Angular en plataformas críticas de producción (videoidentificación y firma electrónica). He diseñado y desplegado webs corporativas completas —frontend, backend, SEO técnico e infraestructura—, incluyendo diseño de interfaces en Figma y arquitecturas headless propias con CMS basados en la API de GitHub. Integro herramientas de IA (Claude, GitHub Copilot, ChatGPT Codex) en mi flujo de trabajo diario para acelerar los tiempos de entrega sin comprometer la calidad del código. Para referencias adicionales, puede contactarse con las personas indicadas en las cartas de recomendación adjuntas.
+          Desarrollador Full Stack con más de 8 años de experiencia, especializado en Next.js, React y TypeScript, con experiencia adicional en Angular en plataformas críticas de producción (videoidentificación y firma electrónica). He diseñado y desplegado webs corporativas completas —frontend, backend, SEO técnico e infraestructura—, incluyendo diseño de interfaces en Figma y arquitecturas headless propias con CMS basados en la API de GitHub, Express.js y MongoDB o Supabase. Integro herramientas de IA (Claude, GitHub Copilot, ChatGPT Codex) en mi flujo de trabajo diario para acelerar los tiempos de entrega sin comprometer la calidad del código. Para referencias adicionales, puede contactarse con las personas indicadas en las cartas de recomendación adjuntas.
         </p>
       </section>
 
