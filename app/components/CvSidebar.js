@@ -45,9 +45,6 @@ export default function CvSidebar() {
         <p className="text-slate-400 text-[13px] print:text-[12px]">
           Desarrollador Web Full Stack
         </p>
-        <p className="inline-block px-2.5 py-0.5 rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-[12px] print:text-[11px] font-semibold">
-          Incorporación inmediata
-        </p>
         <p className="text-slate-300 text-[15px] print:text-[12px]">
           <a href="mailto:albertosanchezalicante@gmail.com" className="underline">
             albertosanchezalicante@gmail.com
