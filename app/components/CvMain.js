@@ -199,7 +199,7 @@ export default function CvMain() {
           Idiomas
         </h2>
         <p className="text-slate-700 text-[15px] print:text-[12px]">
-          Español — Nativo · Inglés — Competencia básica limitada
+          Español — Nativo · Inglés — A2-B1
         </p>
       </section>
     </main>
