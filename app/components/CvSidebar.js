@@ -2,19 +2,20 @@
 
 import { useState } from "react";
 
-export default function CvSidebar() {
+export default function CvSidebar({ dict }) {
   const [isPhotoOpen, setIsPhotoOpen] = useState(false);
+  const { name, role, photoAlt, photoAltExpanded, close, location, linkedinLabel } = dict.sidebar;
 
   return (
     <header className="w-full p-6 print:p-0.5 flex flex-col items-center gap-1 print:gap-0 bg-slate-800 text-center">
       <div
-        className="relative w-56 h-56 print:w-16 print:h-16 cursor-pointer group"
+        className="relative w-56 h-56 print:w-20 print:h-20 cursor-pointer group"
         onClick={() => setIsPhotoOpen(true)}
       >
         <img
-          className="w-56 h-56 print:w-16 print:h-16 rounded-full object-cover border-4 border-white/20 group-hover:opacity-90 transition-opacity"
+          className="w-56 h-56 print:w-20 print:h-20 rounded-full object-cover border-4 border-white/20 group-hover:opacity-90 transition-opacity"
           src="/profile.jpg"
-          alt="Retrato profesional de un joven desarrollador"
+          alt={photoAlt}
         />
         <div className="absolute bottom-1 right-1 flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 border-2 border-white/70 shadow-md print:hidden">
           <svg
@@ -39,12 +40,8 @@ export default function CvSidebar() {
         </div>
       </div>
       <div className="flex flex-col items-center gap-1 print:gap-0">
-        <h1 className="font-bold text-white text-[26px] print:text-[20px]">
-          Alberto Sánchez Plaza
-        </h1>
-        <p className="text-slate-400 text-[13px] print:text-[12px]">
-          Desarrollador Web Full Stack
-        </p>
+        <h1 className="font-bold text-white text-[26px] print:text-[20px]">{name}</h1>
+        <p className="text-slate-400 text-[13px] print:text-[12px]">{role}</p>
         <p className="text-slate-300 text-[15px] print:text-[12px]">
           <a href="mailto:albertosanchezalicante@gmail.com" className="underline">
             albertosanchezalicante@gmail.com
@@ -53,7 +50,7 @@ export default function CvSidebar() {
           <a href="tel:+34642351460" className="underline">
             +34 642 351 460
           </a>{" "}
-          · Alicante, Remoto
+          · {location}
         </p>
       </div>
       <p className="text-slate-300 text-[15px] print:text-[12px]">
@@ -63,7 +60,7 @@ export default function CvSidebar() {
           rel="noopener noreferrer"
           className="text-blue-300 font-semibold underline"
         >
-          linkedin.com/in/albertosánchezplaza
+          {linkedinLabel}
         </a>
       </p>
 
@@ -75,7 +72,7 @@ export default function CvSidebar() {
           <button
             type="button"
             className="absolute top-4 right-4 text-white text-3xl leading-none hover:text-slate-300 cursor-pointer"
-            aria-label="Cerrar"
+            aria-label={close}
             onClick={() => setIsPhotoOpen(false)}
           >
             &times;
@@ -83,7 +80,7 @@ export default function CvSidebar() {
           <img
             className="max-w-full max-h-full rounded-lg object-contain"
             src="/profile.jpg"
-            alt="Retrato profesional de un joven desarrollador (ampliado)"
+            alt={photoAltExpanded}
           />
         </div>
       )}
