@@ -52,34 +52,35 @@ const es = {
           url: "https://klimakos.com",
           label: "klimakos.com",
           description:
-            "Web bilingüe (ES/EN) para importante distribuidora de gases refrigerantes, con CMS propio y catálogo técnico SEO. Stack: Next.js, React, Tailwind, Mailjet. [Ver carta de recomendación](/Carta-de-recomendacion-klimakos.pdf)",
+            "Web bilingüe (ES/EN) para importante distribuidora de gases refrigerantes, con CMS propio y catálogo técnico SEO. Stack: Next.js, React, Tailwind, Mailjet. En producción e indexado en Google. [Ver carta de recomendación](/Carta-de-recomendacion-klimakos.pdf)",
         },
         {
           name: "Schoola English College",
           url: "https://schoola.net",
           label: "schoola.net",
           description:
-            "Academia de inglés con blog (CMS propio), panel admin y SEO avanzado. Stack: Next.js, React, Tailwind, GitHub API, Mailjet.\n[Ver carta de recomendación](/Carta-de-recomendacion-schoola.pdf)",
+            "Academia de inglés con blog (CMS propio), panel admin y SEO avanzado. Stack: Next.js, React, Tailwind, GitHub API, Mailjet. En producción e indexado en Google.\n[Ver carta de recomendación](/Carta-de-recomendacion-schoola.pdf)",
         },
         {
           name: "Carolinas Fitness Gym",
           url: "https://carolinasgym.com",
           label: "carolinasgym.com",
           description:
-            "Web de un gimnasio en producción, con calendario de clases dinámico y cookies RGPD. Stack: React, Gatsby, Sass/Bootstrap.\n[Ver carta de recomendación](/Carta-de-recomendacion-carolinasgym.pdf)",
+            "Web de un gimnasio, con calendario de clases dinámico y cookies RGPD. Stack: React, Gatsby, Sass/Bootstrap. En producción e indexado en Google.\n[Ver carta de recomendación](/Carta-de-recomendacion-carolinasgym.pdf)",
         },
         {
           name: "Miguel Ángel Sellés — blog/portfolio",
           url: "https://miguelangelselles.com",
           label: "miguelangelselles.com",
           description:
-            "Blog/portfolio con CMS propio (sin WordPress) usando GitHub como base de datos. Stack: Next.js, React, TypeScript, JWT.",
+            "Blog/portfolio con CMS propio (sin WordPress) usando GitHub como base de datos. Stack: Next.js, React, TypeScript, JWT. En producción e indexado en Google.",
         },
         {
           name: "La Huerta del Volcán",
           url: "https://lahuertadelvolcan.com",
           label: "lahuertadelvolcan.com",
-          description: "Landing page para granja educativa familiar. Stack: Next.js, Tailwind.",
+          description:
+            "Landing page para granja educativa familiar. Stack: Next.js, Tailwind. En producción e indexado en Google.",
         },
       ],
     },
@@ -96,7 +97,7 @@ const es = {
     },
     skills: {
       heading: "Habilidades",
-      text: "HTML5 / CSS3 / Sass / Bootstrap / Tailwind · JavaScript / TypeScript · React / Next.js / Angular / PrimeNG / Gatsby · Node.js / Express · PostgreSQL / MongoDB / Supabase · APIs REST / JWT · Git / GitHub / CI/CD · Vercel · Azure · Figma · Mailjet · IA: Claude / GitHub Copilot / ChatGPT Codex",
+      text: "HTML5 / CSS3 / Sass / Bootstrap / Tailwind · JavaScript / TypeScript · React / Next.js / Angular / PrimeNG / Gatsby · Node.js / Express · PostgreSQL / MongoDB / Supabase · APIs REST / JWT · Git / GitHub / CI/CD · Vercel · Azure · Figma · Mailjet · Postman · IA: Claude / GitHub Copilot / ChatGPT Codex",
     },
     languages: {
       heading: "Idiomas",
