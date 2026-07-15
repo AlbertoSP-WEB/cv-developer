@@ -24,6 +24,11 @@ body {
   color: var(--foreground);
 }
 
+a.underline {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
 @media print {
   @page {
     size: A4;

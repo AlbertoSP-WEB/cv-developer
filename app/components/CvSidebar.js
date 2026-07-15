@@ -6,13 +6,13 @@ export default function CvSidebar() {
   const [isPhotoOpen, setIsPhotoOpen] = useState(false);
 
   return (
-    <header className="w-full p-6 print:p-1 flex flex-col items-center gap-1 print:gap-0.5 bg-slate-800 text-center">
+    <header className="w-full p-6 print:p-0.5 flex flex-col items-center gap-1 print:gap-0 bg-slate-800 text-center">
       <div
-        className="relative w-56 h-56 print:w-28 print:h-28 cursor-pointer group"
+        className="relative w-56 h-56 print:w-16 print:h-16 cursor-pointer group"
         onClick={() => setIsPhotoOpen(true)}
       >
         <img
-          className="w-56 h-56 print:w-28 print:h-28 rounded-full object-cover border-4 border-white/20 group-hover:opacity-90 transition-opacity"
+          className="w-56 h-56 print:w-16 print:h-16 rounded-full object-cover border-4 border-white/20 group-hover:opacity-90 transition-opacity"
           src="/profile.jpg"
           alt="Retrato profesional de un joven desarrollador"
         />
