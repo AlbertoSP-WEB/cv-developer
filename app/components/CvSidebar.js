@@ -9,11 +9,11 @@ export default function CvSidebar({ dict }) {
   return (
     <header className="w-full p-6 print:p-0.5 flex flex-col items-center gap-1 print:gap-0 bg-slate-800 text-center">
       <div
-        className="relative w-56 h-56 print:w-20 print:h-20 cursor-pointer group"
+        className="relative w-56 h-56 print:w-32 print:h-32 cursor-pointer group"
         onClick={() => setIsPhotoOpen(true)}
       >
         <img
-          className="w-56 h-56 print:w-20 print:h-20 rounded-full object-cover border-4 border-white/20 group-hover:opacity-90 transition-opacity"
+          className="w-56 h-56 print:w-32 print:h-32 rounded-full object-cover border-4 border-white/20 group-hover:opacity-90 transition-opacity"
           src="/profile.jpg"
           alt={photoAlt}
         />

@@ -15,7 +15,7 @@ const es = {
   sections: {
     profile: {
       heading: "Perfil",
-      body: "Desarrollador Full Stack con más de 7 años de experiencia, especializado en Next.js, React y JavaScript, con experiencia adicional en Angular en plataformas críticas de producción (videoidentificación y firma electrónica). He desarrollado y desplegado webs corporativas completas —frontend, backend, SEO técnico e infraestructura—, incluyendo diseño de interfaces en Figma y arquitecturas headless propias con CMS basados en la API de GitHub, Express.js y MongoDB o Supabase. Integro herramientas de IA (Claude, GitHub Copilot, ChatGPT Codex) en mi flujo de trabajo diario para acelerar los tiempos de entrega sin comprometer la calidad del código.",
+      body: "Desarrollador Full Stack con más de 7 años de experiencia en Next.js, React y JavaScript. Diseño, desarrollo y despliego productos web de principio a fin, integrando IA en mi flujo de trabajo diario para acelerar la entrega sin perder calidad.",
       highlight:
         "Para referencias adicionales, puede contactarse con las personas indicadas en las cartas de recomendación adjuntas.",
     },
