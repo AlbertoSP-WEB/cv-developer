@@ -7,13 +7,13 @@ export default function CvSidebar({ dict }) {
   const { name, role, photoAlt, photoAltExpanded, close, location, linkedinLabel } = dict.sidebar;
 
   return (
-    <header className="w-full p-6 print:p-0.5 flex flex-col items-center gap-1 print:gap-0 bg-slate-800 text-center">
+    <header className="w-full p-6 print:p-8 flex flex-col items-center gap-1 print:gap-3 bg-slate-800 text-center">
       <div
-        className="relative w-56 h-56 print:w-32 print:h-32 cursor-pointer group"
+        className="relative w-56 h-56 print:w-48 print:h-48 cursor-pointer group"
         onClick={() => setIsPhotoOpen(true)}
       >
         <img
-          className="w-56 h-56 print:w-32 print:h-32 rounded-full object-cover border-4 border-white/20 group-hover:opacity-90 transition-opacity"
+          className="w-56 h-56 print:w-48 print:h-48 rounded-full object-cover border-4 border-white/20 group-hover:opacity-90 transition-opacity"
           src="/profile.jpg"
           alt={photoAlt}
         />
@@ -39,10 +39,10 @@ export default function CvSidebar({ dict }) {
           </svg>
         </div>
       </div>
-      <div className="flex flex-col items-center gap-1 print:gap-0">
-        <h1 className="font-bold text-white text-[26px] print:text-[20px]">{name}</h1>
-        <p className="text-slate-400 text-[13px] print:text-[12px]">{role}</p>
-        <p className="text-slate-300 text-[15px] print:text-[12px]">
+      <div className="flex flex-col items-center gap-1 print:gap-2">
+        <h1 className="font-bold text-white text-[26px] print:text-[24px]">{name}</h1>
+        <p className="text-slate-400 text-[13px]">{role}</p>
+        <p className="text-slate-300 text-[15px] print:text-[14px]">
           <a href="mailto:albertosanchezalicante@gmail.com" className="underline">
             albertosanchezalicante@gmail.com
           </a>{" "}
@@ -53,7 +53,7 @@ export default function CvSidebar({ dict }) {
           · {location}
         </p>
       </div>
-      <p className="text-slate-300 text-[15px] print:text-[12px]">
+      <p className="text-slate-300 text-[15px] print:text-[14px]">
         <a
           href="https://www.linkedin.com/in/albertosánchezplaza"
           target="_blank"
